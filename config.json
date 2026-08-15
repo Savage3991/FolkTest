@@ -1,0 +1,15 @@
+{
+    "rules": [
+        "remove_unused_if_branch",
+        "remove_if_expression",
+        "remove_types",
+        "remove_interpolated_string",
+        {
+            "rule": "remove_debug_profiling",
+            "preserve_arguments_side_effects": true
+        }
+    ],
+    "bundle": {
+        "require_mode": "path"
+    }
+}

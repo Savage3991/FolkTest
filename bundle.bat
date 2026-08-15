@@ -1,1 +1,1 @@
-darklua process src/init.luau outpt/output.luau
+darklua process --config config.json src/init.luau output/main.luau
